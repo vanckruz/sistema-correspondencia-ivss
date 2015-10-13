@@ -1,0 +1,107 @@
+html,body{
+		width: 100%;
+		height: 100%;
+		/*background-color: C*/
+		/*colores grises jui #e6e6e6-> #dadada*/
+		/*background-image:url("http://localhost/Cor_ivss/fronted/img/fondo1.jpg");
+		
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position: 0px 10%;
+		*/
+		/*background: linear-gradient(rgba(7, 70, 217, 0.96), rgba(12, 172, 240, 0.96)) !important;*/
+		background:linear-gradient(to right, #8E8E8E, #E7E7E7, #E7E7E7, #8E8E8E) repeat scroll 0% 0% #8E8E8E;
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+		background-size:cover;
+	}
+
+	h1,h2,h3{
+	font-family: Arial;
+	}
+
+	.header{
+		width: 100% !important;
+		background: #234181 linear-gradient(#639ACA,#6095C4 20%,#3368A0 60%,#234181 100%);
+		} 
+
+.header,.mas{
+border-bottom: 1px solid #133783;
+
+}
+		.titulo{
+			font-size: 3em;
+			font-family: Arial;
+			color: white;
+		}
+
+		.rol{
+			text-align:center;
+		}
+		
+		.rol div span{
+		color: white;
+		background:-webkit-gradient(linear,50% 0%,50% 100%,color-stop(0,#3e3e3e),color-stop(1,#333)) !important;
+		background:-ms-gradient(linear,50% 0%,50% 100%,color-stop(0,#3e3e3e),color-stop(1,#333)) !important;
+		background:-o-gradient(linear,50% 0%,50% 100%,color-stop(0,#3e3e3e),color-stop(1,#333)) !important;
+		background:-moz-gradient(linear,50% 0%,50% 100%,color-stop(0,#3e3e3e),color-stop(1,#333)) !important;
+		background:gradient(linear,50% 0%,50% 100%,color-stop(0,#3e3e3e),color-stop(1,#333)) !important;
+		padding: 12px 10px 0px 10px;
+		font-size: 3em;
+		}
+
+		.rol p{
+		margin-top:5px;
+		color:white;
+		font-size: 1em;
+		font-weight:bold;
+		}
+
+		.container{
+			width:960px !important;
+		}
+
+		.colorTema{
+			background: #234181 linear-gradient(#639ACA,#6095C4 20%,#3368A0 60%,#234181 100%);
+		}
+
+		#load{
+			height: 900px;
+			border:1px dotted #CCC;
+			box-shadow: 10px 10px 21px black;
+			background-color:white;
+			overflow: scroll;
+			}
+
+		#agregar{
+			display:none;
+		}
+
+.fondologo{
+	width:70px;
+	height:70px;
+	padding: 5px;
+	background:white;
+	border-radius:5px;
+}
+
+::-webkit-scrollbar {
+      width:10px;
+}
+
+::-webkit-scrollbar-track {
+     background-color:rgba(0, 0, 0, 0.7);
+}
+::-webkit-scrollbar-thumb {
+      background-color: rgba(0, 0, 0, 0.7);
+}
+::-webkit-scrollbar-button {
+      background-color: rgba(0, 0, 0, 0.7);
+}
+::-webkit-scrollbar-corner {
+      background-color: black;
+}
+
+.btn-primary{background:#04c !important;}
+.btn-primary:hover{background:#0A5BC4 !important;}
